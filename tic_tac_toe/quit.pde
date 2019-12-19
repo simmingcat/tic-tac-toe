@@ -8,7 +8,6 @@ color yellowQuitButton = #9DF6FF ;
 void quitButtonRect() {
   noStroke();
   rect(width*19/20, 1, width*1/20, height*1/20);
-  
 }
 void quitButtonSetup() {
   quitButtonFont = createFont ("Italics", 45); //Must also Tools / Create Font / Find Font / Do Not Press "OK"

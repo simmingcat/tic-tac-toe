@@ -7,9 +7,10 @@ String Creator = "by AthenaChow";
 String HardMode = "Hard";
 String MediumMode = "Medium";
 String EasyMode = "Easy";
-String o = "O";
-String x = "X";
 String ModeD = "Dark";
+
+String x="X:", o="O:";
+String X = "X", O = "O";
 
 void textSetup() {
 }
@@ -22,35 +23,26 @@ void textDraw() {
   textAlign(CENTER, CENTER);
   textFont(titleFont, 40);
   text(title, 0, 0, 500, 84);
-  
-  
+
+
   textAlign(CENTER, BOTTOM);
   textFont(titleFont, 15);
   text(Creator, 0, 0, 500, 84);
-  
-  
-   textAlign(CENTER, CENTER);
+
+
+  textAlign(CENTER, CENTER);
   textFont(titleFont, 30);
   text(HardMode, HardX, HardY, HardRectX, HardRectY);
-  
-   textAlign(CENTER, CENTER);
+
+  textAlign(CENTER, CENTER);
   textFont(titleFont, 30);
   text(MediumMode, mediumX, mediumY, mediumRectX, mediumRectY );
-  
-   textAlign(CENTER, CENTER);
+
+  textAlign(CENTER, CENTER);
   textFont(titleFont, 30);
   text(EasyMode, easyX, easyY, easyRectX, easyRectY );
   
   textAlign(CENTER, CENTER);
-  textFont(titleFont, 30);
-  text(o ,164, 141, 50, 50);
-  
- textAlign(CENTER, CENTER);
-  textFont(titleFont, 30);
-  text(x, 330, 141, 50, 50);
-  
-   textAlign(CENTER, CENTER);
   textFont(titleFont, 10);
   text(ModeD, darkX, darkY, darkRectX, darkRectY);
-
 }

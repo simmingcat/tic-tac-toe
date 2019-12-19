@@ -7,6 +7,7 @@ void setup() {
   BuildSetUp();
   bored();
   quitButtonSetup();
+  rowsSetUp();
 }
 
 void draw() {
@@ -16,7 +17,8 @@ void draw() {
   textDraw();
   darkModeHover();
   darkModeColorChange();
-
+  rowsDraws();
+  drawXO();
 
   //println ("Mousex:", mouseX, "\tMouseY:", mouseY);
 }
@@ -25,7 +27,7 @@ void draw() {
 void mousePressed() {
   quitButtonMouseClicked();
   darkModePressed();
- 
+  clickXO();
 }
 
 void keyPressed() {
